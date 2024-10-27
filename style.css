@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Page 1 Styles */
+#page1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+
+/* Page 2 Styles */
+#page2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2 img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
